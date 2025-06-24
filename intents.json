@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good day",
+        "Hi there",
+        "What's up"
+      ],
+      "response": "Hey hey! Jerry's in the house! 🕺 What can I do for you?"
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you",
+        "Goodbye",
+        "Talk to you later",
+        "I'm done"
+      ],
+      "response": "Alrighty then! Jerry’s logging out. Stay awesome 🚀"
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "I appreciate it"
+      ],
+      "response": "Anytime! Jerry's got your back 💪😄"
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Got any jokes?",
+        "Give me something funny"
+      ],
+      "response": "Why did the computer get cold? Because it forgot to close its Windows! 😆"
+    }
+  ]
+}
