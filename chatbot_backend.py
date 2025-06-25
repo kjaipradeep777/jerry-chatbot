@@ -1,7 +1,6 @@
 import json
 import nltk
 import spacy
-import spacy.cli
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
@@ -10,11 +9,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # 🔽 Load spaCy model
-try:
-    nlp = spacy.load('en_core_web_md')
-except OSError:
-    spacy.cli.download('en_core_web_md')
-    nlp = spacy.load('en_core_web_md')
+    nlp = spacy.load('en_core_web_sm')
 
 # 🔽 Load intents from JSON
 with open('intents.json', 'r') as file:
