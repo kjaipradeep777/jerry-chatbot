@@ -9,12 +9,6 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # 🔽 Load spaCy model (streamlit-compatible)
-# 🔽 Load spaCy model (auto-download if missing)
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    import spacy.cli
-    spacy.cli.download("en_core_web_sm")
     nlp = spacy.load("en_core_web_sm")
 
 # 🔽 Load intents from JSON
